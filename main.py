@@ -1,4 +1,5 @@
 from datetime import datetime
+# import random
 
 def validate(rc: str) -> bool:
     if not rc.isdigit():
@@ -19,8 +20,19 @@ def validate(rc: str) -> bool:
     return True
 
 
+# def generate() -> str:
+#     while True:
+#         rc = "".join(str(random.randint(0, 9)) for _ in range(10))
+#         print("skusam: ", rc)
+#         if validate(rc) and int(rc[2:4]) > 50:
+#             return rc
+#
+#
+# rc = generate()
+# print("zenske rc: ", rc)
+
 print(validate("0101010000"))
 print(validate("9913320000"))
-print(validate("0151010000"))
+print(validate("7952098374"))
 print(validate("abcd123456"))
 print(validate("8004309412"))
