@@ -19,8 +19,8 @@ def validate(rc: str) -> bool:
     return True
 
 
-print(validate("0101010000"))
-print(validate("9913320000"))
-print(validate("0151010000"))
-print(validate("abcd123456"))
-print(validate("8004309412"))
+# print(validate("0101010000"))
+# print(validate("9913320000"))
+# print(validate("0151010000"))
+# print(validate("abcd123456"))
+# print(validate("8004309412"))
